@@ -15,10 +15,10 @@ def get_days_from_today(date):
 # count difference
   delta =  date_today - input_date
   #print (delta.days)
-  print(delta.days)
+  return delta.days
   
 
-get_days_from_today("2012.10.11")
+print(get_days_from_today("2012.10.11"))
   
 
 
